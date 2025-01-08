@@ -23,11 +23,11 @@ const Page = () => {
   }, []);
 
   return (
-    <div className='v-[200vh]'>
-      <h1>Smooth Scrolling Page</h1>
-      <p>This page uses Lenis for smooth scrolling!</p>
-      <div style={{ height: '2000px' }}>
-        <p>Scroll down to see the effect.</p>
+    <div className="min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center justify-center p-4">
+      <h1 className="text-4xl font-semibold text-center mb-4">Smooth Scrolling Page</h1>
+      <p className="text-lg text-center mb-8">This page uses Lenis for smooth scrolling!</p>
+      <div style={{ height: '2000px' }} className="flex flex-col items-center justify-center">
+        <p className="text-xl text-center text-gray-600">Scroll down to see the effect.</p>
       </div>
     </div>
   );
