@@ -1,5 +1,3 @@
-Here's a more detailed README for your project:
-
 ---
 
 # Lenis-Scroll
